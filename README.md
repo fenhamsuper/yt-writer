@@ -1,15 +1,14 @@
-# 🎬 ScriptForge — AI YouTube Script Writer
+# 🎬 Code — AI YouTube Script Writer
 
 > A production-ready, full-stack AI chatbot application that generates professional YouTube content across 5 specialized modes — powered by Claude AI with real-time streaming.
 
-![ScriptForge Banner](https://img.shields.io/badge/Powered%20by-Claude%20AI-6c63ff?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Node](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
 ![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)
 
 ---
 
-## ✨ Features
+##  Features
 
 - **5 Specialized Content Modes** — Horror, Educational, Shorts, Hooks & Titles, SEO Descriptions
 - **Real-time Streaming** — Watch your script generate token by token via Server-Sent Events
@@ -21,9 +20,9 @@
 
 ---
 
-## 📋 Content Generation Modes
+##  Content Generation Modes
 
-### 👁️ Horror Story
+###  Horror Story
 Generates atmospheric, narrative-driven horror scripts with:
 - Cinematic structure: Hook → Setup → Rising Tension → Climax → Twist
 - Second-person immersive narration ("you walk into the room...")
@@ -31,7 +30,7 @@ Generates atmospheric, narrative-driven horror scripts with:
 - Psychological depth and vivid imagery
 - Target lengths: 5 min / 10 min / 15-20 min scripts
 
-### 🎓 Educational Script
+###  Educational Script
 Produces clear, structured educational content with:
 - Pedagogical framework: Hook → Objectives → Content → Examples → Summary → CTA
 - Numbered sections for easy navigation
@@ -39,21 +38,21 @@ Produces clear, structured educational content with:
 - Timestamp suggestions for video chapters
 - Subscriber call-to-action at the end
 
-### ⚡ Shorts Script
+### Shorts Script
 Creates concise, viral-optimized content for:
 - YouTube Shorts, TikTok, Instagram Reels (15-60 seconds)
 - Every-second-counts structure with strong 3-second hooks
 - Visual direction notes alongside spoken script
 - Satisfying loops, reveals, and pattern-interrupt formats
 
-### 🎣 Hooks & Titles
+###  Hooks & Titles
 Generates attention-maximizing video starters:
 - 3-5 hook variations per request (curiosity, shock, story, promise, question)
 - Multiple title formula variations
 - Psychological reasoning for why each approach works
 - Power words, CTR optimization tips, and A/B testing guidance
 
-### 🔍 SEO Description
+###  SEO Description
 Creates algorithm-optimized YouTube descriptions with:
 - Strong first 2-3 visible lines (pre "Show More")
 - Keyword-rich natural language for search ranking
@@ -64,10 +63,10 @@ Creates algorithm-optimized YouTube descriptions with:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
-scriptforge/
+code/
 ├── backend/                    # Node.js / Express API
 │   ├── server.js               # Main server with all endpoints
 │   └── package.json
@@ -99,7 +98,7 @@ scriptforge/
 
 ### Prerequisites
 - Node.js 18 or higher
-- An [API key]([https://console.anthropic.com/](https://openrouter.ai/workspaces/default/keys)) 
+- An [API key]((https://openrouter.ai/workspaces/default/keys)) 
 
 ### 1. Clone the repository
 ```bash
@@ -144,13 +143,13 @@ npm run dev
 # App opens at http://localhost:5173
 ```
 
-Then open **http://localhost:5173** in your browser. 🎉
+Then open **http://localhost:5173** in your browser. 
 
 ---
 
 ## 🔑 API Key Setup
 
-1. Go to [https://openrouter.ai/workspaces/default/keys)
+1. Go to [(https://openrouter.ai/workspaces/default/keys)]
 2. Create an account or sign in
 3. Navigate to **API Keys** → **Create Key**
 4. Copy the key (starts with `sk-ant-`)
@@ -215,7 +214,7 @@ data: {"done": true, "usage": {...}}
 
 ---
 
-## 🛡️ Production Deployment
+## Production Deployment
 
 ### Backend (e.g. Railway, Render, Fly.io)
 1. Set environment variables on your hosting platform
@@ -237,7 +236,7 @@ data: {"done": true, "usage": {...}}
 
 ---
 
-## 🧠 Prompt Engineering Details
+## Prompt Engineering Details
 
 Each mode uses a carefully crafted **system prompt** + **user prompt** combination:
 
@@ -253,7 +252,7 @@ All prompts request **structured output** with clear section labels like `[HOOK]
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] **Chat History** — Save and revisit previously generated scripts
 - [ ] **Script Templates** — Pre-built templates for popular video formats (review, vlog, tutorial)
@@ -268,7 +267,7 @@ All prompts request **structured output** with clear section labels like `[HOOK]
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
 
@@ -280,8 +279,8 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- [Anthropic](https://anthropic.com) for the Claude AI API
+- [Openrouter](https://openrouter.ai/)) for the API
 - [Vite](https://vitejs.dev) for the blazing fast frontend tooling
 - [Express](https://expressjs.com) for the robust Node.js framework
