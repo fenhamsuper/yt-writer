@@ -1,6 +1,6 @@
 # 🎬 Code — AI YouTube Script Writer
 
-> A production-ready, full-stack AI chatbot application that generates professional YouTube content across 5 specialized modes — powered by Claude AI with real-time streaming.
+> An AI chatbot application that generates professional YouTube content across 5 specialized modes — with real-time streaming.
 
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Node](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
