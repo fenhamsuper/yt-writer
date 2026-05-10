@@ -1,0 +1,15 @@
+{
+  "name": "scriptforge-yt-script-writer",
+  "version": "1.0.0",
+  "description": "AI-powered YouTube script writer - monorepo root",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["youtube", "script-writer", "ai", "claude", "anthropic"],
+  "license": "MIT"
+}
