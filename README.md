@@ -99,12 +99,12 @@ scriptforge/
 
 ### Prerequisites
 - Node.js 18 or higher
-- An [Anthropic API key](https://console.anthropic.com/) (Claude access)
+- An [API key]([https://console.anthropic.com/](https://openrouter.ai/workspaces/default/keys)) 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/scriptforge-yt-writer.git
-cd scriptforge-yt-writer
+git clone https://github.com/YOUR_USERNAME/yt-writer.git
+cd yt-writer
 ```
 
 ### 2. Install dependencies
@@ -122,8 +122,8 @@ cd ../frontend && npm install
 # Copy the template
 cp .env.example backend/.env
 
-# Edit backend/.env and add your Anthropic API key:
-ANTHROPIC_API_KEY=sk-ant-your-actual-key-here
+# Edit backend/.env and add your API key:
+API_KEY=sk-ant-your-actual-key-here
 PORT=3001
 FRONTEND_URL=http://localhost:5173
 ```
@@ -154,7 +154,7 @@ Then open **http://localhost:5173** in your browser. 🎉
 2. Create an account or sign in
 3. Navigate to **API Keys** → **Create Key**
 4. Copy the key (starts with `sk-ant-`)
-5. Paste it into `backend/.env` as `ANTHROPIC_API_KEY`
+5. Paste it into `backend/.env` as `API_KEY`
 
 > ⚠️ Never commit your `.env` file or share your API key publicly.
 
@@ -209,7 +209,7 @@ data: {"done": true, "usage": {...}}
 
 | Variable | Default | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | — | **Required.** Your Claude API key |
+| `API_KEY` | — | **Required.** Your API key |
 | `PORT` | `3001` | Backend server port |
 | `FRONTEND_URL` | `http://localhost:5173` | CORS allowed origin |
 
