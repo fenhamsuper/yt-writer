@@ -280,12 +280,6 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ---
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - [Anthropic](https://anthropic.com) for the Claude AI API
