@@ -150,7 +150,7 @@ Then open **http://localhost:5173** in your browser. 🎉
 
 ## 🔑 API Key Setup
 
-1. Go to [console.anthropic.com](https://console.anthropic.com/)
+1. Go to [https://openrouter.ai/workspaces/default/keys)
 2. Create an account or sign in
 3. Navigate to **API Keys** → **Create Key**
 4. Copy the key (starts with `sk-ant-`)
